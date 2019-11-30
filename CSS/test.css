@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+  }
+  .box {
+    height: 200px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid;
+  }
+
+  .box1 {
+    position: relative;
+    z-index: 4; 
+    background: red;
+  }
+
+  .box2 {
+    position: absolute;
+    left: 10px;
+    z-index: 3; 
+    background: blue;
+  }
+
+  .box3 {
+    position: absolute;
+    z-index: 2; 
+    top: 130px;
+    left: 60px;
+    background: yellow;
+  }
+
+  .box4 {
+    position: relative;
+    z-index: 5; 
+    background: pink;
+  }

@@ -1,0 +1,17 @@
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h2 {
+    position: sticky;
+    top: 10px;
+    margin: 0;
+    padding: 10px;
+    background: black;
+    color: white;
+}
+
+section {
+    border: 10px solid red;
+}
